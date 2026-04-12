@@ -13,6 +13,10 @@ function App() {
       <div className={styles.wrapper}>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<></>} />
+          <Route path="/about" element={<></>} />
+          <Route path="/resume" element={<></>} />
+          <Route path="/test" element={<Home />} />
         </Routes>
       </div>
     </>
